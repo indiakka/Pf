@@ -1,0 +1,12 @@
+.inicio {
+    margin: 0 auto;
+    text-align: center;
+    height: 300px;
+    width: 75%;
+    transform: translateY(75%);
+    font-size: 30px;
+    color: #9B8FD2;
+}
+p{
+    font-size: 30px;
+}

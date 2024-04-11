@@ -1,0 +1,38 @@
+.contenedor-proyectos {
+    background: url("https://giphy.com/embed/YMLUKpRMr8CDzawo5C");
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-content: center;
+    justify-items: center;
+    text-align: center;
+    
+}
+
+.proyectos{
+    background-color: rgb(133, 131, 219);    
+    padding: 0;
+    margin: 5px;
+    opacity: 70%;
+
+}
+
+
+.proyectos:hover{
+    opacity: 100%;
+}
+
+img {
+    width: 30vw;
+    height: 60vh;
+    object-fit:contain;
+display: flex;
+align-items: flex-start;
+}
+
+h1{
+    margin: 2%;
+    color: rgb(48, 55, 61);
+    font-size: 20px;
+
+}

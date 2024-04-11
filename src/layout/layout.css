@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    font-family: "Indie Flower",
+        cursive;
+}
+
+body {
+    background-image: url("https://es.vecteezy.com/video/11789447-animacion-de-flujo-de-bucle-de-polvo-de-particulas-de-fuego-espacial-azul-brillante-para-fondo-de-plata-de-movimiento-de-fantasia-de-arte-abstracto");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    /* Otras propiedades de estilo */
+    margin: 0;
+    font-family: "Shadows Into Light", cursive;
+    background-color: #5754F0;
+}

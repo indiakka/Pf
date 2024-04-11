@@ -1,0 +1,110 @@
+.navbar-container {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: 12vh;
+    display: flex;
+}
+
+.navbar {
+    transition: transform 0.3s, font-size 0.3s;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    background-color: #4215e6;
+    width: 100%;
+}
+
+
+.navlink-container {
+    width: 85%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    column-gap: 8%;
+}
+
+.navlink {
+    padding: 5%;
+    text-decoration: none;
+    color: #BEA4F0;
+    font-size: 35px;
+    align-items: center;
+}
+
+.navlink.active-link,
+.navlink:focus {
+    color: #2d11a8;
+    font-weight: bold;
+}
+
+.hamburger {
+    display: none;
+}
+
+.navlink:hover {
+    font-size: 35px;
+    transform: scale(1.1);
+}
+
+.social-media-container {
+    width: 15%;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social-media i,
+.social-media-icons {
+    justify-content: flex-end;
+    color: #BEA4F0;
+    display: inline;
+    align-items: center;
+    margin: auto;
+
+}
+
+.social-media-icons :hover {
+    font-size: 26px;
+    transform: scale(1.1);
+}
+
+.social-media-icons {
+    display: inline;
+    align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(3, 34%);
+    }
+
+    .navlink {
+        display: none;
+    }
+
+    .hamburger {
+        font-size: 30px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo-container {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .casita-container {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .casita {
+        width: 35%;
+    }
+}
