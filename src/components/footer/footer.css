@@ -1,0 +1,34 @@
+.footer-container {
+    position: relative;
+    min-height: 80vh;
+}
+
+.footer {
+    background-color: var(--secondary-main-color);
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 0;
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.footer-text {
+    text-align: center;
+    width: 30rem;
+    color: var(--main-color);
+}
+
+.social-media i,
+.social-media-icons {
+    margin: auto;
+    padding: 0 2rem;
+    color: var(--main-color);
+}
+
+.social-media-icons :hover {
+    color: var(--text-color);
+}

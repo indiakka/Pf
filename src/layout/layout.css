@@ -1,7 +1,6 @@
 * {
     margin: 0;
-    font-family: "Indie Flower",
-        cursive;
+    font-family:  var(--main-font);
 }
 
 body {
@@ -10,8 +9,16 @@ body {
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
-    /* Otras propiedades de estilo */
     margin: 0;
     font-family: "Shadows Into Light", cursive;
-    background-color: #5754F0;
+    background-color: var(--main-color);
+    color: var(--text-color);
+
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
 }
