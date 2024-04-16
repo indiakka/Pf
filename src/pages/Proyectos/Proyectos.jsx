@@ -6,7 +6,7 @@ const Proyectos = () => {
     <div className="contenedor-proyectos">
       <div className="proyectos" id="adoptaAmor">
         <h1>Adopta Amor</h1>
-        <NavLink to="https://adopta-amor-f5.netlify.app/">
+        <NavLink to="https://adopta-amor-zrl.netlify.app">
           <img src="/assets/AdoptaAmor.png" />
         </NavLink>
       </div>
