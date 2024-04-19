@@ -1,16 +1,19 @@
 .contenedor-proyectos {
+    width: 100%;
+    background-size: cover;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-content: center;
     justify-items: center;
-    gap: 2rem;
-    margin: 1rem;
+    text-align: center;
+    margin: 1rem 0;
 }
 
 .proyectos {
     background-color: var(--secondary-color);
     opacity: 60%;
-    width: 100%;
+    width: 95%;
+    margin: 1rem;
 }
 
 .proyectos:hover .proyectos-img,
@@ -20,12 +23,9 @@
 }
 
 .proyectos-img {
-    display: block;
-    background-image: var(--image);
-    height: 15rem;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    height: 20vw;
+    width: 20vw;
+    object-fit: cover;
 }
 
 .proyectos h1 {
