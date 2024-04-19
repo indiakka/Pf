@@ -1,34 +1,34 @@
 .contenedor-proyectos {
-    background: url("https://giphy.com/embed/YMLUKpRMr8CDzawo5C");
-    background-size: cover;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-content: center;
     justify-items: center;
-    text-align: center;
+    gap: 2rem;
+    margin: 1rem;
 }
 
 .proyectos {
     background-color: var(--secondary-color);
-    padding: 0;
-    margin: 15px;
     opacity: 60%;
-    height: 60vh;
+    width: 100%;
 }
 
+.proyectos:hover .proyectos-img,
 .proyectos:hover {
     opacity: 100%;
-}
-
-img {
-    width: 30vw;
-    height: 50vh;
     object-fit: contain;
-    display: flex;
-    align-items: flex-start;
 }
 
-h1 {
+.proyectos-img {
+    display: block;
+    background-image: var(--image);
+    height: 15rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.proyectos h1 {
     margin: 2%;
     color: rgb(48, 55, 61);
     font-size: 20px;
