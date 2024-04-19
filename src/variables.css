@@ -1,8 +1,9 @@
-:root{
+:root {
     --main-color: rgb(171, 159, 180);
     --text-color: black;
     --secondary-main-color: #4215e6;
     --secondary-color: rgb(133, 131, 219);
     --white: #ffffff;
     --main-font: font-family: "Inconsolata", monospace;
+    --footer-height: 4rem;
 }

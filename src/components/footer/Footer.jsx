@@ -3,8 +3,7 @@ import "./footer.css";
 
 const Footer = () => {
   return (
-    <div className="footer-container">
-      <div className="footer">
+    <footer id="footer">
         <div className="footer-text">
           <p>Copyright © . Todos los derechos reservados.</p>
         </div>
@@ -22,8 +21,7 @@ const Footer = () => {
             <i className=" fa-brands fa-linkedin fa-xl"></i>
           </NavLink>
         </div>
-      </div>
-    </div>
+    </footer>
   );
 };
 

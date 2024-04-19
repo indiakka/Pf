@@ -1,20 +1,17 @@
-.footer-container {
-    position: relative;
-    min-height: 80vh;
-}
 
-.footer {
-    background-color: var(--secondary-main-color);
+#footer {
     position: absolute;
     bottom: 0;
-    margin-bottom: 0;
     width: 100%;
-    height: 3rem;
+    height: var(--footer-height);
+    background-color: var(--secondary-main-color);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
 }
+
+
 
 .footer-text {
     text-align: center;
@@ -31,4 +28,26 @@
 
 .social-media-icons :hover {
     color: var(--text-color);
+}
+
+@media only screen and (max-width: 768px) {
+
+    .footer {
+        display: flex;
+        flex-direction: row;
+        bottom: 0;
+        margin-bottom: 0;
+        font-size: 15px;
+    }
+
+    .social-media i,
+    .social-media-icons {
+        margin: auto;
+        padding: 0 2rem;
+        color: var(--main-color);
+    }
+
+    .footer-text {
+        width: 8rem;
+    }
 }
