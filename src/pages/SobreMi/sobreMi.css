@@ -1,17 +1,36 @@
 .text-sobreMi {
+    height: 45%;
     text-align: center;
-    margin: 8%;
     font-size: 30px;
     font-weight: 100;
+    margin-top: 5rem;
 }
 
-p {
-    padding: 0.5%;
+.text-sobreMi p {
+    padding: 0.5rem;
 }
 
 
-@media only screen and (max-width: 768px) {
+@media all and (min-width: 480px) and (max-width: 768px) {
     .text-sobreMi {
+        height: 60%;
+        margin: 2rem 3rem;
+    }
+
+    .text-sobreMi p {
+        font-size: 25px;
+        padding: 0.5rem;
+    }
+}
+
+@media all and (max-width: 480px) {
+    .text-sobreMi {
+        height: 50%;
+        margin: 3rem 3rem;
+    }
+
+    .text-sobreMi p {
         font-size: 20px;
+        padding: 0.2rem;
     }
 }
