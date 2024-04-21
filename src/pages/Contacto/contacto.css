@@ -18,7 +18,7 @@ label {
 
 input,
 textarea {
-    width: 50vw;
+    width: 50%;
     padding: 10px;
     border: 1px solid #000;
     border-radius: 4px;
@@ -49,12 +49,17 @@ button:hover {
 
 @media all and (max-width: 480px) {
     form {
-        width: 90vw;
+        width: 80%;
         font-size: 20px;
-        margin: 1rem;
+        margin: 3rem 1rem;
     }
 
-    button{
+    input,
+    textarea {
+        width: 80%;
+    }
+
+    button {
         width: 40vw;
         font-size: 20px;
     }
